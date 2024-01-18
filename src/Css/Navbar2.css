@@ -1,0 +1,152 @@
+#logo{
+    width: 120px;
+    height: auto;
+    margin-left: 15px;
+}
+#navbar-2{
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.139);
+    box-shadow: 0px 1px 10px 0px rgb(150, 150, 150);
+}
+#dropdownMenu{
+    border: 0px;
+    /* margin-top:30.1px; */
+    transition: display 3s;
+    width: 220px;
+}
+
+.nav-close-btn{
+    background-color: white;
+    color: #F7A400;
+    font-size: 25px;
+    border: 0px;
+    font-weight: 800;
+}
+.nav-close-btn:hover{
+    background-color: white;
+    color: #F7A400;
+    
+}
+.nav-item{
+    margin: 5px;
+}
+.nav-item .nav-link.custom-color{
+    font-weight: bolder;
+    color: #19188D;
+}
+.nav-item .nav-link.custom-color:hover{
+    color: #F7A400;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.dropdown-item{
+    color: #19188D;
+}
+.dropdown-item:hover{
+    color:#F7A400;
+    background-color: white;
+    padding-left: 25px;
+}
+#navbarSupportedContent{
+    margin-left: 100px;
+}
+.srch-icon{
+    font-size: 25px;
+}
+
+.srch-icon:hover{
+    color: #F7A400;
+}
+#hiding_with_offcanva{
+    display: flex;
+}
+
+.grid-btn{
+    color: #19188D;
+    padding-bottom: 12px;
+    font-size: 25px;
+    border: 0px;
+    background-color: white;
+    border-radius: 10px;
+}
+.grid-btn:hover{
+    color: #F7A400;
+}
+
+.text-btn{
+    background-color: #F7A400;
+    font-size: 15px;
+    padding: 15px;
+}
+.text-btn:hover{
+    background-color: #19188D;
+}
+
+.contact-icons{
+    margin: 5px;
+}
+.offcanva-contact-detail{
+    color: #19188D;
+    display: none;
+}
+#canva_hr{
+    border: 1px solid #F7A400;
+    width: 350px;
+    margin: 20px auto ;
+}
+.canva_contact_div h5{
+    color: #19188D;
+    margin: 0px;
+}
+.canva_contact_div p{
+    color: #19188D;
+    margin: 0px;
+}
+.canva_contact_icons span{
+    color: #F7A400;
+    margin: 10px;
+    cursor: pointer;
+}
+.canva_contact_icons span:hover{
+    color: #19188D;
+}
+#canva_search_div div{
+    width: 80vw;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #F7A400;
+}
+#canva_search_div div button{
+    color: #F7A400;
+    font-size: 26px;
+}
+/* #canva_search_div div input{
+    width: 100%;
+    border: 0px;
+    outline: none;
+    font-size: 25px;
+    color: #19188D;
+} */
+@media screen and (max-width: 992px) {
+    .nav-link,.dropdown-item{
+        border: 1px solid rgb(160, 158, 158);
+        padding: 10px;
+        width: 350px;
+    }
+
+    .navbar-icons{
+        display: block;
+    }
+    .offcanvas-body{
+        padding: 10px;
+        flex-direction: column;
+        justify-content: left;
+    }
+    #hiding_with_offcanva{
+        background-color: black;
+        display: none;
+    }
+    .offcanva-contact-detail{
+        display: block;
+    }
+}

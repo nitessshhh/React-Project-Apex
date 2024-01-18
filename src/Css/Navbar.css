@@ -1,0 +1,19 @@
+.navbar-1{
+    background-color:  #0E104B;
+    color: white;
+    height: auto;
+    width: auto;
+    font: 16px;
+  }
+  .nav-icons{
+    font-size: 20px;
+    color: #9495b2;
+    margin-top: 4px;
+    margin-right: 8px;
+  }
+
+  @media screen and (max-width: 768px){
+    #navbar1{
+      height: 0px;
+    }
+  }
